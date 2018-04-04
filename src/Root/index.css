@@ -1,0 +1,235 @@
+.Account {
+    padding: 100px 0 100px 0;
+}
+
+.MenuContent {
+    background-color: #fff;
+}
+
+#root .MenuBoxContainer {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.MenuBox {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.EmptyView,
+.TableTitle,
+.AddTitleBack,
+.AddressTitle,
+.changePhoneTitle,
+.changePswdTitle {
+    text-align: center;
+    padding: 30px 0 15px 0;
+    font-weight: 600;
+}
+
+#root .TableCellStyle {
+    padding: 0 10px 0 10px;
+}
+
+.ReorderStyle {
+    color: #3BBDE0;
+    border: 2px solid #3BBDE0;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 0;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#root .CheckIcon {
+    fill: #3BBDE0;
+}
+
+#root .CloseIcon {
+    fill: #f44242;
+}
+
+.NewAddBtn {
+    text-align: right;
+    padding-bottom: 35px;
+}
+
+#root .New-Address,
+#root .New-Address:hover,
+#root .New-Address:active {
+    padding: 0 20px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #3bbde0;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    transition: "background .2s ease";
+    text-shadow: -1px -1px 1px hsla(0,0%,100%,.2);
+}
+
+.AddTitleBack {
+    position: relative;
+}
+
+.BackImgLogo {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+}
+
+form.AddNewAddressForm,
+.MainPhoneChange,
+.MainPasswordChange,
+.MainEditProfileChange {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+label.FieldLable {
+    display: table-caption;
+}
+
+.ApartmentField,
+.MainPhoneChangeFirst,
+.MainPhoneChangeSecond,
+.MainEditProfileChangeFirst,
+.MainEditProfileChangeSecond,
+.photoImgTag,
+.photoActionopt {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.MainPhoneChangeFirst,
+.MainPhoneChangeSecond,
+.MainEditProfileChangeFirst,
+.MainEditProfileChangeSecond {
+    width: 50%;
+}
+
+.ZipCode {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.FormFieldFirst,
+.ApartmentField,
+.ZipCode,
+.StoreAddList,
+.MainPhoneChangeFirst,
+.MainPasswordChange,
+.MainEditProfileChangeFirst,
+.MainEditProfileChangeSecond,
+.photoActionopt {
+    padding-left: 15px;
+}
+
+#root .Submit-Address,
+#root .send-sms,
+#root .pswd-chng,
+#root .name-chng {
+    cursor: pointer;
+    margin-left: 15px;
+    color: #fff;
+    background-color: #3bbde0;
+}
+
+#root .Submit-Address-not,
+#root .send-sms-not,
+#root .pswd-chng-not,
+#root .name-chng-not {
+    cursor: not-allowed;
+    margin-left: 15px;
+    color: #fff;
+    background-color: #ccc;
+}
+
+#root .send-sms,
+#root .send-sms-not,
+#root .pswd-chng,
+#root .pswd-chng-not,
+#root .name-chng,
+#root .name-chng-not  {
+    margin-left: 0;
+}
+
+.AddressContent {
+    padding-top: 15px;
+}
+
+.AddressContentMain {
+    position: relative;
+}
+
+#root .addRemove {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    fill: red;
+    cursor: pointer;
+}
+
+.PhoneCurrent {
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.AccountBox {
+    margin-bottom: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.photoLable {
+    width: 100%;
+}
+
+.profileIcon{
+    height: 75px;
+    width: 75px;
+    border: 1px solid #3bbde0;
+    border-radius: 50%;
+}
+
+#root .UserIcon,
+#root .OrderIcon,
+#root .AddIcon,
+#root .CreaditCardIcon,
+#root .LogoutIcon {
+    width: 25px;
+    height: 25px;
+}
+
+p.photoActionoptEdit {
+    color: #3bbde0;
+    cursor: pointer;
+}
+
+.photoActionoptDelete {
+    color: #e44;
+    cursor: pointer;
+}
+
+input.imageSelectinput {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    width: 75px;
+    opacity: 0;
+}
+
+.photoActionopt{
+    position: relative;
+}
+
+p.photoActionoptEdit {
+    color: #3bbde0;
+    cursor: pointer;
+}
